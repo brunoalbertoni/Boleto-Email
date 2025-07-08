@@ -1,0 +1,139 @@
+/* app.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4fbfc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.right-section {
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resumo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.numero {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.tabela-boletos {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.table-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.tabela-boletos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-boletos th,
+.tabela-boletos td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabela-boletos th {
+  background-color: #f4f4f4;
+}
+
+.tabela-boletos a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tabela-boletos a:hover {
+  text-decoration: underline;
+}
+
+.contas-hoje {
+  overflow-y: auto;
+}
+
+.conta-hoje {
+  display: flex;
+  align-items: center;
+  background-color: #ffe3e3;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.data {
+  background-color: #ff6666;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.detalhes {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.status-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pago {
+  background-color: green;
+}
+
+.nao-pago {
+  background-color: red;
+}

@@ -1,0 +1,86 @@
+/* CSS/email.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+.containr {
+  width: 40vw; /* Define a largura como 30% da tela */
+  height: 45vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.label-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.label-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.label-container label {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background-color: #ffffff;
+  padding: 0 5px;
+  font-size: 0.9em;
+  color: #666;
+  transition: all 0.2s ease-in-out;
+}
+
+.label-container input:focus + label,
+.label-container input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  background-color: #ffffff;
+  color: #007bff;
+  font-size: 0.8em;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.btn_cont {
+  margin-top: 10px;
+  background-color: #6c757d;
+}
+
+.btn_cont:hover {
+  background-color: #5a6268;
+}
